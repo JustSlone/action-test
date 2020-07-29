@@ -18,7 +18,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Github mention to Slack
-        uses: abeyuya/actions-mention-to-slack@v2.4
+        uses: justslone/actions-mention-to-slack
         with:
           # Mapping config for Github username to Slack member ID.
           #configuration-path: # default is .github/mention-to-slack.yml
