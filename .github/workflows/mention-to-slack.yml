@@ -23,7 +23,7 @@ jobs:
           # Mapping config for Github username to Slack member ID.
           #configuration-path: # default is .github/mention-to-slack.yml
           # Slack Incomming Webhook URL to notify.
-          slack-webhook-url: ${{ secrets.TEAMS_WEBHOOK_URL }}
+          slack-webhook-url: ${{ secrets.SLACK_WEBHOOK_URL }}
           # Github access token to fetch .github/mention-to-slack.yml file.
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           # Display name for this bot on Slack.
