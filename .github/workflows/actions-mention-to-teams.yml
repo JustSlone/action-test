@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run
-        uses: JustSlone/actions-mention-to-teams@v0.1-alpha
+        uses: JustSlone/actions-mention-to-teams@v0.1.1-alpha
         with:          
           teams-webhook-url: ${{ secrets.TEAMS_WEBHOOK_URL }}
           run-id: ${{ github.run_id }}     
