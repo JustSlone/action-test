@@ -16,6 +16,7 @@ on:
 jobs:
   mention-to-teams:
     runs-on: ubuntu-latest
+    continue-on-error: true
     steps:      
 #      - name: Debug Action
 #        uses: hmarr/debug-action@v1.0.0
