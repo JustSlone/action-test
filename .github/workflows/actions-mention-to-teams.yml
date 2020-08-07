@@ -21,7 +21,7 @@ jobs:
 #      - name: Debug Action
 #        uses: hmarr/debug-action@v1.0.0
       - name: Run
-        uses: JustSlone/actions-mention-to-teams@v0.3-beta
+        uses: JustSlone/actions-mention-to-teams@v0.4-beta
         with:          
           teams-webhook-url: ${{ secrets.TEAMS_WEBHOOK_URL }}
           run-id: ${{ github.run_id }}     
